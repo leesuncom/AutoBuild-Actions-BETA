@@ -21,13 +21,13 @@ Firmware_Diy_Core() {
 	Default_Flag=AUTO
 	# 固件标签 (名称后缀), 适用不同配置文件, AUTO: [自动识别]
 	
-	Default_IP="192.168.1.1"
+	Default_IP="192.168.1.2"
 	# 固件 IP 地址
 	
 	Default_Title="Powered by AutoBuild-Actions"
 	# 固件终端首页显示的额外信息
 	
-	Short_Fw_Date=true
+	Short_Fw_Date=false
 	# 简短的固件日期, true: [20210601]; false: [202106012359]
 	
 	x86_Full_Images=false
